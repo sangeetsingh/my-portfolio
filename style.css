@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+ 
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+ 
+header {
+  background: #0d47a1;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+ 
+.nav-links a,
+.nav-links button {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+ 
+#hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #e3f2fd;
+}
+ 
+.dark-mode #hero {
+  background-color: #1e1e1e;
+}
+ 
+#hero h1 span {
+  color: #0d47a1;
+}
+ 
+.btn {
+  background: #0d47a1;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0.5rem;
+  display: inline-block;
+  transition: background 0.3s;
+}
+ 
+.btn:hover {
+  background-color: #1565c0;
+}
+ 
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+ 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+ 
+.skills li {
+  background-color: #bbdefb;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  list-style: none;
+}
+ 
+.dark-mode .skills li {
+  background-color: #3949ab;
+  color: #fff;
+}
+ 
+.project {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #e1f5fe;
+  border-left: 4px solid #0288d1;
+  border-radius: 4px;
+}
+ 
+.dark-mode .project {
+  background: #263238;
+  border-color: #64b5f6;
+}
+ 
+.contact-buttons {
+  text-align: center;
+}
+ 
+footer {
+  text-align: center;
+  background: #0d47a1;
+  color: white;
+  padding: 1rem;
+}
+ 
